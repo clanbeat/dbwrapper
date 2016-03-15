@@ -25,3 +25,5 @@ func main() {
   defer db.Close()
 }
 ```
+
+Implement interfaces for your structs to use the dbwrapper for querying, inserting, updating and deleting
